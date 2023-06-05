@@ -23,7 +23,11 @@ class MovieCard extends React.Component {
         return (
             <Link to={`/movieInfo/${this.props.title}`} target='_blank'>
                 <div id="figure">
-                    <img alt="post" src={this.props.post}/>
+                    <img src="../images/logo.png" alt='another image is displaying ...' />
+                    {/* <img alt="post " src={this.props.post} /> */}
+                    {
+                        console.log("alt post console : "+this.props.post)
+                    }
                     <div id="figcaption">
                         <h3>{this.props.title}</h3>
                         <span>{desc}</span>

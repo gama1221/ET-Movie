@@ -3,7 +3,7 @@
  */
 
 /* root url */
-const root = 'http://localhost:8080/jokul';
+const root = 'http://localhost:9040/getinet';
 
 const Api = {
     'movieList': (page) => `${root}/movie-list/${page}`,
