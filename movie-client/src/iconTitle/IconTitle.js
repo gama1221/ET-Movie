@@ -16,7 +16,7 @@ class IconTitle extends React.Component {
                 <Row >
                     <Col span={24}>
                         <div id="title">
-                            <img id="bigImg" src={require('../images/JOKUL.png')} alt="logo"/>
+                            <img id="bigImg" src={require('../images/logo.png')} alt="logo"/>
                         </div>
                     </Col>
                 </Row>

@@ -206,7 +206,7 @@ class Header extends React.Component {
                     <Col span={3}>
                         <a href="/" id="logo">
                             <img src={require('../images/logo.png')} alt="logo"/>
-                            <span>JOKUL</span>
+                            <span>ET-MOVIE</span>
                         </a>
                     </Col>
                     <Col span={4}>
